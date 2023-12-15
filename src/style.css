@@ -20,15 +20,47 @@ main {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     font-family: Karla;
+}
+.game-container {
+    width: 250.88px;
+    height: 252.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 17.92px;
+}
+
+.title {
+    margin: 0 0;
+    font-family: Karla;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+}
+
+.instructions {
+    width: 232.96px;
+    height: 31.36px;
+    margin-top: 0;
+    margin-bottom: 30.72px;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.03em;
+    text-align: center;    
+    color: rgba(74, 78, 116, 1);
 }
 
 .die {
@@ -39,7 +71,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 1);
     font-family: Karla;
     font-size: 21px;
     font-weight: 700;
@@ -64,6 +95,7 @@ main {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: center;
+    margin-top: 25.6px ;
 }
 
 .roll-dice:focus {
